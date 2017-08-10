@@ -3,7 +3,7 @@
         .module("music.directives", [])
         .directive("xmNav", ["$location", function ($location) {
             return {
-                templateUrl: "/common/directives/xmNav.html",
+                templateUrl: "./common/directives/xmNav.html",
                 link: function (scope, element, attr) {
                     scope.$location = $location;
 
