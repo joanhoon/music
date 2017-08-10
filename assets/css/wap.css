@@ -1,0 +1,261 @@
+body {
+    font-size: 14px;
+    background: #F5F5F5;
+}
+.m-top, .m-top .logo a, .m-nav li, .m-nav li span, .m-nav a, .m-nav a em, .m-nav .cor, .m-nav .hot, .m-srch .srchbg, .m-subnav, .m-subnav .nav a, .m-subnav .nav em, .m-tophead, .m-mail, .m-tophead .head .mask, .m-msg{
+    background: url(../img/topbar.png) no-repeat 0 9999px;
+
+}
+
+
+
+.g-topbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    zoom: 1;
+}
+.m-top {
+    position: relative;
+    z-index: 1000;
+    height: 70px;
+    background-position: 0 -80px;
+    background-repeat: repeat-x;
+}
+.m-top .wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.m-top .logo {
+    float: left;
+    width: 176px;
+}
+.m-top .logo a {
+    float: left;
+    width: 157px;
+    height: 33px;
+    padding: 22px 20px 0 0;
+    background-position: 0 15px;
+    text-indent: -9999px;
+}
+
+
+
+
+
+.m-nav {
+    float: left;
+}
+.m-nav li {
+    position: relative;
+    background-position: right -300px;
+}
+.m-nav a.z-slt {
+    position: relative;
+    margin: 0 -1px;
+    background-position: left -155px;
+}
+.m-nav a {
+    position: relative;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 76px;
+}
+
+.m-nav a.z-slt em {
+    padding: 0 21px 0 19px;
+    background-position: right -155px;
+}
+.m-nav a em {
+    padding: 0 20px 0 18px;
+    overflow: hidden;
+    color: #ccc;
+    text-shadow: 0 1px 0 #1b1b1b;
+    cursor: pointer;
+}
+.m-nav li, .m-nav li span, .m-nav a, .m-nav a em {
+    float: left;
+    height: 70px;
+    font-size: 14px;
+}
+
+.m-nav a.z-slt .cor {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 63px;
+    width: 14px;
+    height: 9px;
+    margin-left: -7px;
+    overflow: hidden;
+    background-position: -226px 0;
+}
+
+
+
+
+
+
+
+
+.m-subnav {
+    z-index: 90;
+    height: 35px;
+    background-position: 0 -230px;
+    background-repeat: repeat-x;
+}
+.m-subnav-up {
+    height: 5px;
+    _overflow: hidden;
+}
+.f-hide, .js-hide {
+    display: none !important;
+}
+.f-pr {
+    position: relative;
+    zoom: 1;
+}
+.m-subnav .shadow {
+    _display: none;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    overflow: hidden;
+}
+
+
+
+
+
+.m-subnav .wrap {
+    width: 911px;
+    padding-left: 168px;
+    margin: 0 auto;
+}
+.m-subnav .nav li, .m-subnav .nav a, .m-subnav .nav em {
+    float: left;
+    height: 35px;
+    overflow: hidden;
+}
+.m-subnav .nav a:hover, .m-subnav .nav a.z-slt {
+    background-position: left -268px;
+}
+.m-subnav .nav a {
+    padding-left: 14px;
+}
+.m-subnav .nav a:hover em, .m-subnav .nav a.z-slt em {
+    background-position: right -268px;
+}
+
+.m-subnav .nav em {
+    padding-right: 14px;
+    line-height: 37px;
+    color: #fff;
+    text-shadow: 0 1px 0 #650303;
+}
+.m-subnav .nav li, .m-subnav .nav a, .m-subnav .nav em {
+    float: left;
+    height: 35px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* 首页 */
+.home {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 105px !important;
+}
+.home img{
+    width: 100%;
+}
+/* my区域 */
+.g-bd, .g-bd1, .g-bd2, .g-bd3, .g-bd4, .g-bd5, .g-bd6, .g-bd7 {
+    width: 980px;
+    min-height: 700px;
+    _height: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    margin-top: 75px;
+}
+.n-pglg, .n-pglg .btn {
+    background: url(../img/mymusic.png) no-repeat 0 9999px;
+}
+.n-pglg {
+    width: 807px;
+    height: 268px;
+    margin: 0 auto 0;
+    padding-top: 104px;
+    background-position: 0 104px;
+}
+
+
+.n-pglg h2 {
+    height: 100px;
+    text-indent: -9999px;
+}
+.n-pglg .btn {
+    display: block;
+    width: 167px;
+    height: 45px;
+    margin: 102px 0 0 482px;
+    background-position: 0 9999px;
+    text-indent: -9999px;
+}
+
+
+
+
+
+
+.n-pglg2, .n-pglg2 .btn {
+    background: url(../img/notlogin.jpg) no-repeat 0 9999px;
+}
+.n-pglg2 {
+    width: 902px;
+    height: 414px;
+    padding-top: 70px;
+    margin: 0px auto;
+    background-position: 0px 70px;
+}
+.n-pglg2 .welc {
+    line-height: 23px;
+    padding: 178px 0px 0px 535px;
+}
+.n-pglg2 .btn {
+    display: block;
+    width: 157px;
+    height: 48px;
+    text-indent: -9999px;
+    margin: 36px 0px 0px 535px;
+    background-position: 0px 9999px;
+}
+
+
+.download{
+    
+    margin-top: 75px !important;
+    
+}
+.download img{
+    width: 100%;
+}
+
+
+
+footer{
+    margin-top: -5px;
+}
+footer img{
+    width: 100%;
+    /* background-image: url("../img/footer.png"); */
+}

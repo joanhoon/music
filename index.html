@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>music</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/wap.css">
+    <link rel="shortcut icon" href="//s1.music.126.net/music.ico?v1">
+</head>
+
+<body ng-app="music">
+
+
+
+    <!-- 顶部导航栏开始 -->
+    <div id="g-topbar" class="g-topbar ng-scope" ng-controller="search">
+        <nav class="nav" xm-nav>
+        </nav>
+
+    </div>
+    <!-- 顶部导航栏结束 -->
+
+    <div class="container" ng-view>
+
+        <!--其他-->
+    </div>
+    <footer>
+         <img src="./assets/img/footer.png" alt=""> 
+    </footer>
+    <script src="assets/js/prefixfree.min.js"></script>
+    <script src="./node_modules/angular/angular.js"></script>
+    <script src="./node_modules/angular-route/angular-route.js"></script>
+    <script src="app.js"></script>
+    <script src="./home_page/homepage.js"></script>
+    <!-- <script src="./home_page/home.js"></script> -->
+    <script src="./common/jsonpService.js"></script>
+    <script src="./common/directives/xmNav.js"></script>
+    <script src="./my/my.js"></script>
+    <script src="./friend/friend.js"></script>
+    <script src="./product/product.js"></script>
+    <script src="./nmusician/nmusician.js"></script>
+    <script src="./download/download.js"></script>
+</body>
+
+</html>
