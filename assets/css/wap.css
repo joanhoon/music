@@ -188,7 +188,7 @@ body {
     margin-top: 75px;
 }
 .n-pglg, .n-pglg .btn {
-    background: url(../img/mymusic.png) no-repeat 0 9999px;
+    background: url(../img/mymusic.jpg) no-repeat 0 9999px;
 }
 .n-pglg {
     width: 807px;
@@ -257,5 +257,4 @@ footer{
 }
 footer img{
     width: 100%;
-    /* background-image: url("../img/footer.png"); */
 }
