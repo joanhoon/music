@@ -4,7 +4,7 @@
 		.config(["$routeProvider", function($routeProvider){
 			$routeProvider
 				.when("/nmusician", {
-					templateUrl: "/nmusician/view.html",
+					templateUrl: "./nmusician/view.html",
 					controller: "nmusician"
 				})
 		}])
